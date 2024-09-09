@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: blue;
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+nav ul {
+  background-color: rgb(68, 240, 30);
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+}
+nav li {
+  display: inline-flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  padding: 12px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 14px 14px 14px greenyellow;
+}
+
+.FOTOS {
+  margin: 50px;
+  display: flex;
+}
